@@ -1,0 +1,89 @@
+/* line 1, style.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 5, style.scss */
+li {
+  list-style: none; }
+
+/* line 8, style.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+/* line 13, style.scss */
+body {
+  font-size: 16px; }
+
+/* line 16, style.scss */
+.header {
+  width: 100%;
+  height: 40px;
+  background: black;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  line-height: 40px; }
+  /* line 24, style.scss */
+  .header .close {
+    position: absolute;
+    left: 10px;
+    top: 0; }
+  /* line 29, style.scss */
+  .header .geng {
+    position: absolute;
+    right: 10px;
+    top: 0; }
+
+/* line 35, style.scss */
+.dialog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+  opacity: .7;
+  z-index: 10px;
+  padding-top: 100px; }
+  /* line 45, style.scss */
+  .dialog .box {
+    background: #fff;
+    width: 95%;
+    height: 300px;
+    margin-left: 7px;
+    text-align: center; }
+    /* line 51, style.scss */
+    .dialog .box dl {
+      margin-left: 16%;
+      width: 200px;
+      height: 100px; }
+      /* line 56, style.scss */
+      .dialog .box dl dt img {
+        width: 130px;
+        height: 50px; }
+    /* line 62, style.scss */
+    .dialog .box p {
+      text-align: center;
+      border-bottom: 1px solid #ccc; }
+      /* line 65, style.scss */
+      .dialog .box p img {
+        width: 20px;
+        height: 35px; }
+      /* line 69, style.scss */
+      .dialog .box p input {
+        border: none; }
+    /* line 73, style.scss */
+    .dialog .box .btn {
+      display: inline-block;
+      width: 200px;
+      height: 50px;
+      background: green;
+      color: #fff;
+      text-align: center;
+      line-height: 50px;
+      margin-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */
